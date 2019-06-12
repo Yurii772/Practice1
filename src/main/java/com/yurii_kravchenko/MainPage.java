@@ -9,9 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MainPage {
     WebDriver browser;
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-        browser=new ChromeDriver();
-        browser.get ("https://qalight.com.ua");
         WebElement about_us=browser.findElement(By.xpath("//*[@id=\"menu-item-254\"]/a"));
         WebElement courses=browser.findElement(By.xpath("//*[@id=\"menu-item-256\"]/a"));
         WebElement knowledge_base=browser.findElement(By.xpath("//*[@id=\"menu-item-716\"]/a"));
