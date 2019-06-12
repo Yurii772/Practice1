@@ -22,7 +22,13 @@ public class MainPage {
         WebElement FAQ=browser.findElement(By.xpath("//*[@id=\"menu-item-5479\"]/a"));
         WebElement Сontact=browser.findElement((By.xpath("//*[@id=\"menu-item-258\"]/a")));
         WebElement Student_cabinet=browser.findElement(By.xpath("/html/body/div[3]/div/div[1]/div/div[3]/a/span[2]"));
-        sleep(2000);
-        Student_cabinet.click();
+        WebElement Phone_life=browser.findElement(By.xpath("/html/body/div[3]/div/div[1]/div/div[2]/ul/li[1]/a"));
+        WebElement Phone_kyivstar=browser.findElement((By.xpath("/html/body/div[3]/div/div[1]/div/div[2]/ul/li[2]/a")));
+        WebElement Phone_vodafone=browser.findElement(By.xpath("/html/body/div[3]/div/div[1]/div/div[2]/ul/li[3]/a"));
+        WebElement Sign_on_course=browser.findElement(By.xpath("/html/body/div[4]/div/div[1]/a"));
+        WebElement Lamp=browser.findElement((By.xpath("/html/body/div[4]/div/div[2]/a/img")));
+        WebElement All=browser.findElement(By.xpath("//*[@id=\"two\"]/div/div/div[1]/div[2]/ul/li[1]"));
+        WebElement Testing=browser.findElement(By.xpath("//*[@id=\"two\"]/div/div/div[1]/div[2]/ul/li[2]/a"));
+
         }
 }
