@@ -6,13 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import static java.lang.Thread.sleep;
 
 public class MainPage {
     WebDriver browser;
-
-    @Test
-    public void  qalight_home_page() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         browser=new ChromeDriver();
         browser.get ("https://qalight.com.ua");
@@ -29,6 +25,4 @@ public class MainPage {
         WebElement Lamp=browser.findElement((By.xpath("/html/body/div[4]/div/div[2]/a/img")));
         WebElement All=browser.findElement(By.xpath("//*[@id=\"two\"]/div/div/div[1]/div[2]/ul/li[1]"));
         WebElement Testing=browser.findElement(By.xpath("//*[@id=\"two\"]/div/div/div[1]/div[2]/ul/li[2]/a"));
-
-        }
 }

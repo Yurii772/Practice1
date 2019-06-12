@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import static java.awt.SystemColor.menu;
 import static java.lang.Thread.sleep;
 
 public class QALightTest {
